@@ -7,18 +7,18 @@ export const Sidebar = () => {
       <div className="actions_container">
         <section>
           <div>Style</div>
-          <a className="botones" href="#">
+          <a className="botones" href="home">
             {" "}
             Linear
           </a>
-          <a classN ame="botones" href="#">
+          <a className="botones" href="home">
             Radial
           </a>
         </section>
         <section className="arrowscontainer">
           <div>Direction</div>
           <div className="parte">
-            <a className="botones" href="#">
+            <a className="botones" href="home">
               <svg
                 id="icn"
                 width="10"
@@ -28,7 +28,7 @@ export const Sidebar = () => {
                 <path d="M.557 1.208a.692.692 0 01.651-.651L6.886.178a.776.776 0 01.811.682.691.691 0 01-.643.78l-4.129.275 6.292 6.292c.293.293.305.757.026 1.036-.28.279-.743.267-1.036-.026L1.915 2.925 1.64 7.054a.691.691 0 01-.78.643.776.776 0 01-.682-.811l.379-5.678z"></path>
               </svg>
             </a>
-            <a className="botones" href="#">
+            <a className="botones" href="home">
               <svg
                 id="icn"
                 width="10"
@@ -38,7 +38,7 @@ export const Sidebar = () => {
                 <path d="M4.54.177a.692.692 0 01.92 0l4.283 3.747a.776.776 0 01.091 1.056.691.691 0 01-1.006.096L5.714 2.351v8.899c0 .414-.32.75-.714.75-.394 0-.714-.336-.714-.75V2.351L1.172 5.076A.691.691 0 01.166 4.98a.776.776 0 01.091-1.056L4.539.177z"></path>
               </svg>
             </a>
-            <a className="botones" href="#">
+            <a className="botones" href="home">
               <svg
                 id="icn"
                 width="10"
@@ -50,7 +50,7 @@ export const Sidebar = () => {
             </a>
           </div>
           <div className="parte">
-            <a className="botones" href="#">
+            <a className="botones" href="home">
               <svg
                 id="icn"
                 width="12"
@@ -60,7 +60,7 @@ export const Sidebar = () => {
                 <path d="M.177 5.46a.692.692 0 010-.92L3.924.256A.776.776 0 014.98.166a.691.691 0 01.096 1.006L2.351 4.286h8.899c.414 0 .75.32.75.714 0 .394-.336.714-.75.714H2.351l2.725 3.114a.691.691 0 01-.096 1.006.776.776 0 01-1.056-.091L.177 5.461z"></path>
               </svg>
             </a>
-            <a className="botones" href="#">
+            <a className="botones" href="home">
               <svg
                 id="icn"
                 width="12"
@@ -72,7 +72,7 @@ export const Sidebar = () => {
             </a>
           </div>
           <div className="parte">
-            <a className="botones" href="#">
+            <a className="botones" href="home">
               <svg
                 id="icn"
                 width="10"
@@ -82,7 +82,7 @@ export const Sidebar = () => {
                 <path d="M1.208 9.443a.692.692 0 01-.651-.651L.178 3.114a.776.776 0 01.682-.811.691.691 0 01.78.643l.275 4.129L8.207.783C8.5.49 8.964.478 9.243.757c.279.28.267.743-.026 1.036L2.925 8.085l4.129.275c.402.027.69.376.643.78a.776.776 0 01-.811.682l-5.678-.379z"></path>
               </svg>
             </a>
-            <a className="botones" href="#">
+            <a className="botones" href="home">
               <svg
                 id="icn"
                 width="10"
@@ -92,7 +92,7 @@ export const Sidebar = () => {
                 <path d="M5.46 11.823a.692.692 0 01-.92 0L.256 8.076A.776.776 0 01.166 7.02a.691.691 0 011.006-.096l3.114 2.725V.75c0-.414.32-.75.714-.75.394 0 .714.336.714.75v8.899l3.114-2.725a.691.691 0 011.006.096.776.776 0 01-.091 1.056l-4.282 3.747z"></path>
               </svg>
             </a>
-            <a className="botones" href="#">
+            <a className="botones" href="home">
               <svg
                 id="icn"
                 width="10"
@@ -107,14 +107,14 @@ export const Sidebar = () => {
         <section>
           <div>Colors</div>
           <div className="parte">
-            <a className="botones bgcolor" href="#">
+            <a className="botones bgcolor" href="home">
               {" "}
               Color 1
             </a>
-            <a className="botones bgcolor" href="#">
+            <a className="botones bgcolor" href="home">
               Color 2
             </a>
-            <a className="botones" href="#">
+            <a className="botones" href="home">
               Random
             </a>
           </div>
@@ -122,15 +122,15 @@ export const Sidebar = () => {
         <section>
           <div>Output format</div>
 
-          <a className="botones" href="#">
+          <a className="botones" href="home">
             hex
           </a>
-          <a className="botones" href="#">
+          <a className="botones" href="home">
             Rgba
           </a>
         </section>
         <section>
-          <a className="big-btn" href="#">
+          <a className="big-btn" href="home">
             Get CSS
           </a>
         </section>

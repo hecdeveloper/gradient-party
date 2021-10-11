@@ -10,7 +10,6 @@
 .container {
   display: grid;
   grid-template-columns: 245px auto;
-  // background-color: blue;
   height: 100%;
   width: 100%;
 }
@@ -55,8 +54,6 @@
 .actions_container{
     display: grid;
     justify-content: center;
-    // grid-row-gap: 20px;
-    
 }
 
 .parte{
@@ -65,7 +62,7 @@
 }
 .aparte{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 
